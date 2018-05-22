@@ -7,27 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gif Search Engine</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
     <div class="container">
         <div class="row">
-
-
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <span id="icon" style="text-shadow: rgb(18, 168, 179) 0px 0px 0px, rgb(18, 170, 181) 1px 1px 0px, rgb(18, 172, 183) 2px 2px 0px, rgb(18, 174, 185) 3px 3px 0px, rgb(18, 176, 187) 4px 4px 0px, rgb(19, 178, 189) 5px 5px 0px, rgb(19, 180, 192) 6px 6px 0px, rgb(19, 182, 194) 7px 7px 0px, rgb(19, 184, 196) 8px 8px 0px, rgb(19, 187, 198) 9px 9px 0px, rgb(20, 189, 200) 10px 10px 0px, rgb(20, 191, 203) 11px 11px 0px, rgb(20, 193, 205) 12px 12px 0px, rgb(20, 195, 207) 13px 13px 0px, rgb(21, 197, 209) 14px 14px 0px, rgb(21, 199, 211) 15px 15px 0px, rgb(21, 201, 213) 16px 16px 0px, rgb(21, 203, 216) 17px 17px 0px, rgb(21, 205, 218) 18px 18px 0px, rgb(22, 207, 220) 19px 19px 0px, rgb(22, 209, 222) 20px 20px 0px, rgb(22, 211, 224) 21px 21px 0px, rgb(22, 213, 227) 22px 22px 0px, rgb(22, 215, 229) 23px 23px 0px, rgb(23, 217, 231) 24px 24px 0px, rgb(23, 219, 233) 25px 25px 0px, rgb(23, 221, 235) 26px 26px 0px, rgb(23, 224, 238) 27px 27px 0px, rgb(24, 226, 240) 28px 28px 0px, rgb(24, 228, 242) 29px 29px 0px, rgb(24, 230, 244) 30px 30px 0px, rgb(24, 232, 246) 31px 31px 0px, rgb(24, 234, 248) 32px 32px 0px, rgb(25, 236, 251) 33px 33px 0px, rgb(25, 238, 253) 34px 34px 0px; font-size: 80px; color: rgb(255, 255, 255); height: 150px; width: 150px; line-height: 150px; border-radius: 0%; text-align: center; background-color: rgb(25, 240, 255);">
+                    Gify Search </span>
+            </div>
+            <div class="col-md-3"></div>
         </div>
         <div id="buttonResults" class="row">
         </div>
         <form id="search-form" class="row">
-            <label for="search-input">Add Gif Bro to search</label>
-            <input type="text" id="msearch-input">
-            <br>
 
-            <input id="add-search" type="submit" value="Add to Gify">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 gifySearch">
+                <label for="search-input">Add Gif to search :)</label>
+                <input type="text" id="msearch-input">
+                <br>
+                <input class="searchButtonss" id="add-search" type="submit" value="Add to Gify">
+            </div>
+            <div class="col-md-3"></div>
         </form>
         <div class="row">
-            <button class="removeButton">Remove Last from DB</button>
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <button class="removeButton">Remove Last Search from DB</button>
+            </div>
+            <div class="col-md-3"></div>
         </div>
+        
         <div id="gifs-appear-here" class="row">
         </div>
 
